@@ -1,0 +1,3 @@
+/home/zero/opencv_t/segment/build/CMakeFiles/rebuild_cache.dir
+/home/zero/opencv_t/segment/build/CMakeFiles/edit_cache.dir
+/home/zero/opencv_t/segment/build/CMakeFiles/segment.dir

@@ -1,0 +1,3 @@
+/home/zero/vscode/src/build/CMakeFiles/rebuild_cache.dir
+/home/zero/vscode/src/build/CMakeFiles/edit_cache.dir
+/home/zero/vscode/src/build/CMakeFiles/hello-world.dir
