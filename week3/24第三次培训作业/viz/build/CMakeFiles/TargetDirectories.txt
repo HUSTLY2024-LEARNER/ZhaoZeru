@@ -1,0 +1,3 @@
+/home/zero/pan/opencv_ws/week3/24第三次培训作业/viz/build/CMakeFiles/rebuild_cache.dir
+/home/zero/pan/opencv_ws/week3/24第三次培训作业/viz/build/CMakeFiles/edit_cache.dir
+/home/zero/pan/opencv_ws/week3/24第三次培训作业/viz/build/CMakeFiles/vtkDisplay.dir
