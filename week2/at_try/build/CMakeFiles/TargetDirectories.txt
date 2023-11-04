@@ -1,0 +1,3 @@
+/home/zero/pan/opencv_ws/week2/at_try/build/CMakeFiles/rebuild_cache.dir
+/home/zero/pan/opencv_ws/week2/at_try/build/CMakeFiles/edit_cache.dir
+/home/zero/pan/opencv_ws/week2/at_try/build/CMakeFiles/at_try.dir
