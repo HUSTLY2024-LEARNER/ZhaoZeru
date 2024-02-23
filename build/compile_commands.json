@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/communication",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"communication\\\" -I/home/zero/ROS_ws/autolabor_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/person_listener.dir/src/person_listener.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/communication/src/person_listener.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/communication/src/person_listener.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/communication",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"communication\\\" -I/home/zero/ROS_ws/autolabor_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/listener.dir/src/listener.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/communication/src/listener.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/communication/src/listener.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/communication",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"communication\\\" -I/home/zero/ROS_ws/autolabor_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/person_talker.dir/src/person_talker.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/communication/src/person_talker.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/communication/src/person_talker.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/communication",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"communication\\\" -I/home/zero/ROS_ws/autolabor_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/talker.dir/src/talker.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/communication/src/talker.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/communication/src/talker.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/packages",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"packages\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/hello_world.dir/src/hello_world.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/packages/src/hello_world.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/packages/src/hello_world.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/pub_turtlesim",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"pub_turtlesim\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/sub_turtlesim.dir/src/sub_turtlesim.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/pub_turtlesim/src/sub_turtlesim.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/pub_turtlesim/src/sub_turtlesim.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/pub_turtlesim",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"pub_turtlesim\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/pub_turtlesim.dir/src/pub_turtlesim.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/pub_turtlesim/src/pub_turtlesim.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/pub_turtlesim/src/pub_turtlesim.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/pub_turtlesim",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"pub_turtlesim\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/set_bkcolor.dir/src/set_bkcolor.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/pub_turtlesim/src/set_bkcolor.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/pub_turtlesim/src/set_bkcolor.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/pub_turtlesim",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"pub_turtlesim\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/call_server.dir/src/call_server.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/pub_turtlesim/src/call_server.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/pub_turtlesim/src/call_server.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/ros_param",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ros_param\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/Param_delete.dir/src/Param_delete.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/ros_param/src/Param_delete.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/ros_param/src/Param_delete.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/ros_param",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ros_param\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/Param_Listener.dir/src/Param_Listener.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/ros_param/src/Param_Listener.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/ros_param/src/Param_Listener.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/ros_param",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ros_param\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/Param_Talker.dir/src/Param_Talker.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/ros_param/src/Param_Talker.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/ros_param/src/Param_Talker.cpp"
+}
+]

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zero/ROS_ws/autolabor_ws/install/setup.sh

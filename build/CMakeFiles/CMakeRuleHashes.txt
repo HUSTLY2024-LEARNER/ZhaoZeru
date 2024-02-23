@@ -1,0 +1,15 @@
+# Hashes of file build rules.
+ae736099071220f8c460dc977ee1940b /home/zero/ROS_ws/autolabor_ws/devel/include/communication/Person.h
+b4facdfb1c22ba6bb0d2649e8178e5af /home/zero/ROS_ws/autolabor_ws/devel/lib/python3/dist-packages/communication/msg/_Person.py
+70504a6f11513efba6d6659b2fd38801 /home/zero/ROS_ws/autolabor_ws/devel/lib/python3/dist-packages/communication/msg/__init__.py
+709698e0e1d38035dc5bfc913f0ebb72 /home/zero/ROS_ws/autolabor_ws/devel/share/common-lisp/ros/communication/msg/Person.lisp
+2feee28576251dc55d68934b10ccfb30 /home/zero/ROS_ws/autolabor_ws/devel/share/gennodejs/ros/communication/msg/Person.js
+e5783a841502dde0fa17d47d84f50ee0 /home/zero/ROS_ws/autolabor_ws/devel/share/roseus/ros/communication/manifest.l
+2790b1309bac8f7b1b24a75a1598a510 /home/zero/ROS_ws/autolabor_ws/devel/share/roseus/ros/communication/msg/Person.l
+da942aa6a653080e8d140747d9759b25 CMakeFiles/clean_test_results
+86abd994da92608a29dce3d0fe190736 communication/CMakeFiles/_communication_generate_messages_check_deps_Person
+64bfca9ab08b8b2f34f77338e9b878c1 communication/CMakeFiles/communication_generate_messages_cpp
+64bfca9ab08b8b2f34f77338e9b878c1 communication/CMakeFiles/communication_generate_messages_eus
+64bfca9ab08b8b2f34f77338e9b878c1 communication/CMakeFiles/communication_generate_messages_lisp
+64bfca9ab08b8b2f34f77338e9b878c1 communication/CMakeFiles/communication_generate_messages_nodejs
+64bfca9ab08b8b2f34f77338e9b878c1 communication/CMakeFiles/communication_generate_messages_py

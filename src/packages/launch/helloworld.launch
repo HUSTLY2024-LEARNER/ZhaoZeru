@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="packages" type="hello_world" name="hello0" output="screen" />
+</launch>

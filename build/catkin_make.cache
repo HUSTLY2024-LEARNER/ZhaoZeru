@@ -1,0 +1,2 @@
+communication:hello_vscode:packages:pub_turtlesim:ros_param
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCATKIN_DEVEL_PREFIX=/home/zero/ROS_ws/autolabor_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zero/ROS_ws/autolabor_ws/install -G Unix Makefiles

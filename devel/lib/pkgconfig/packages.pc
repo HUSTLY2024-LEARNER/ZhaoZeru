@@ -1,0 +1,8 @@
+prefix=/home/zero/ROS_ws/autolabor_ws/devel
+
+Name: packages
+Description: Description of packages
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

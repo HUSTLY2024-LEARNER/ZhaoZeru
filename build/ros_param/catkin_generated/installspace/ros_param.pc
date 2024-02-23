@@ -1,0 +1,8 @@
+prefix=/home/zero/ROS_ws/autolabor_ws/install
+
+Name: ros_param
+Description: Description of ros_param
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
