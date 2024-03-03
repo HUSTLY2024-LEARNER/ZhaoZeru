@@ -1,0 +1,8 @@
+prefix=/home/zero/ROS_ws/autolabor_ws/install
+
+Name: multi_tf
+Description: Description of multi_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

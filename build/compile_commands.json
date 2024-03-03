@@ -78,5 +78,45 @@
   "directory": "/home/zero/ROS_ws/autolabor_ws/build/ros_param",
   "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ros_param\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp    -o CMakeFiles/Param_Talker.dir/src/Param_Talker.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/ros_param/src/Param_Talker.cpp",
   "file": "/home/zero/ROS_ws/autolabor_ws/src/ros_param/src/Param_Talker.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/tf_try",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tf_try\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/static_broadcastor.dir/src/tf_pub.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/tf_try/src/tf_pub.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/tf_try/src/tf_pub.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/tf_try",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tf_try\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/tf_sub.dir/src/tf_sub.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/tf_try/src/tf_sub.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/tf_try/src/tf_sub.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/dynamic_tf",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"dynamic_tf\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/dynamic_tf_sub.dir/src/tf_sub.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/dynamic_tf/src/tf_sub.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/dynamic_tf/src/tf_sub.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/dynamic_tf",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"dynamic_tf\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/dynamic_tf_pub.dir/src/tf_pub.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/dynamic_tf/src/tf_pub.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/dynamic_tf/src/tf_pub.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/multi_tf",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"multi_tf\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/multi_sub.dir/src/multi_sub.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/multi_tf/src/multi_sub.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/multi_tf/src/multi_sub.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/tf_turtle",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tf_turtle\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/turtle_pub.dir/src/turtle_pub.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/tf_turtle/src/turtle_pub.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/tf_turtle/src/turtle_pub.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/tf_turtle",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tf_turtle\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/turtle_sub.dir/src/turtle_sub.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/tf_turtle/src/turtle_sub.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/tf_turtle/src/turtle_sub.cpp"
+},
+{
+  "directory": "/home/zero/ROS_ws/autolabor_ws/build/tf_turtle",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"tf_turtle\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3    -o CMakeFiles/create_turtle.dir/src/create_turtle.cpp.o -c /home/zero/ROS_ws/autolabor_ws/src/tf_turtle/src/create_turtle.cpp",
+  "file": "/home/zero/ROS_ws/autolabor_ws/src/tf_turtle/src/create_turtle.cpp"
 }
 ]

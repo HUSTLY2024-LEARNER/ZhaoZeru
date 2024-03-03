@@ -136,6 +136,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/zero/ROS_ws/autolabor_ws/build/packages/cmake_install.cmake")
   include("/home/zero/ROS_ws/autolabor_ws/build/pub_turtlesim/cmake_install.cmake")
   include("/home/zero/ROS_ws/autolabor_ws/build/ros_param/cmake_install.cmake")
+  include("/home/zero/ROS_ws/autolabor_ws/build/tf_try/cmake_install.cmake")
+  include("/home/zero/ROS_ws/autolabor_ws/build/dynamic_tf/cmake_install.cmake")
+  include("/home/zero/ROS_ws/autolabor_ws/build/multi_tf/cmake_install.cmake")
+  include("/home/zero/ROS_ws/autolabor_ws/build/tf_turtle/cmake_install.cmake")
 
 endif()
 

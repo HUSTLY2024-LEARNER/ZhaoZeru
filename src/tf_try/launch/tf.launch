@@ -1,0 +1,4 @@
+<launch>
+    <node pkg = "tf_try" type = "static_broadcastor" name = "static_broadcastor" output = "screen"/>
+    <node pkg = "tf_try" type = "tf_sub" name = "tf_sub" output = "screen"/>
+</launch>
