@@ -63,6 +63,7 @@ all: tf_try/all
 all: dynamic_tf/all
 all: multi_tf/all
 all: tf_turtle/all
+all: robo/all
 
 .PHONY : all
 
@@ -77,6 +78,7 @@ preinstall: tf_try/preinstall
 preinstall: dynamic_tf/preinstall
 preinstall: multi_tf/preinstall
 preinstall: tf_turtle/preinstall
+preinstall: robo/preinstall
 
 .PHONY : preinstall
 
@@ -96,6 +98,7 @@ clean: tf_try/clean
 clean: dynamic_tf/clean
 clean: multi_tf/clean
 clean: tf_turtle/clean
+clean: robo/clean
 
 .PHONY : clean
 
@@ -320,6 +323,24 @@ pub_turtlesim/clean: pub_turtlesim/CMakeFiles/std_srvs_generate_messages_eus.dir
 pub_turtlesim/clean: pub_turtlesim/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
 
 .PHONY : pub_turtlesim/clean
+
+#=============================================================================
+# Directory level rules for directory robo
+
+# Recursive "all" directory target.
+robo/all: robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/all
+
+.PHONY : robo/all
+
+# Recursive "preinstall" directory target.
+robo/preinstall:
+
+.PHONY : robo/preinstall
+
+# Recursive "clean" directory target.
+robo/clean: robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/clean
+
+.PHONY : robo/clean
 
 #=============================================================================
 # Directory level rules for directory ros_param
@@ -2731,6 +2752,33 @@ create_turtle: tf_turtle/CMakeFiles/create_turtle.dir/rule
 tf_turtle/CMakeFiles/create_turtle.dir/clean:
 	$(MAKE) -f tf_turtle/CMakeFiles/create_turtle.dir/build.make tf_turtle/CMakeFiles/create_turtle.dir/clean
 .PHONY : tf_turtle/CMakeFiles/create_turtle.dir/clean
+
+#=============================================================================
+# Target rules for target robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir
+
+# All Build rule for target.
+robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/all:
+	$(MAKE) -f robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/build.make robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/depend
+	$(MAKE) -f robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/build.make robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zero/ROS_ws/autolabor_ws/build/CMakeFiles --progress-num= "Built target robo_xacro_generated_to_devel_space_"
+.PHONY : robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/all
+
+# Build rule for subdir invocation for target.
+robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zero/ROS_ws/autolabor_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zero/ROS_ws/autolabor_ws/build/CMakeFiles 0
+.PHONY : robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/rule
+
+# Convenience name for target.
+robo_xacro_generated_to_devel_space_: robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/rule
+
+.PHONY : robo_xacro_generated_to_devel_space_
+
+# clean rule for target.
+robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/clean:
+	$(MAKE) -f robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/build.make robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/clean
+.PHONY : robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -403,6 +403,9 @@ actionlib_msgs_DIR:PATH=/opt/ros/noetic/share/actionlib_msgs/cmake
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/noetic/share/class_loader/cmake
+
 //Value Computed by CMake
 communication_BINARY_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/build/communication
 
@@ -492,7 +495,7 @@ hello_vscode_BINARY_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/build/hello_vscode
 hello_vscode_SOURCE_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/src/hello_vscode
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/noetic/lib/libmessage_filters.so
+lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/noetic/share/message_filters/cmake
@@ -515,11 +518,20 @@ packages_BINARY_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/build/packages
 //Value Computed by CMake
 packages_SOURCE_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/src/packages
 
+//The directory containing a CMake configuration file for pluginlib.
+pluginlib_DIR:PATH=/opt/ros/noetic/share/pluginlib/cmake
+
 //Value Computed by CMake
 pub_turtlesim_BINARY_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/build/pub_turtlesim
 
 //Value Computed by CMake
 pub_turtlesim_SOURCE_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/src/pub_turtlesim
+
+//Value Computed by CMake
+robo_BINARY_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/build/robo
+
+//Value Computed by CMake
+robo_SOURCE_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/src/robo
 
 //Value Computed by CMake
 ros_param_BINARY_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/build/ros_param
@@ -529,6 +541,9 @@ ros_param_SOURCE_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/src/ros_param
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
+
+//The directory containing a CMake configuration file for rosconsole_bridge.
+rosconsole_bridge_DIR:PATH=/opt/ros/noetic/share/rosconsole_bridge/cmake
 
 //The directory containing a CMake configuration file for roscpp.
 roscpp_DIR:PATH=/opt/ros/noetic/share/roscpp/cmake
@@ -544,6 +559,12 @@ rosgraph_DIR:PATH=/opt/ros/noetic/share/rosgraph/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/noetic/share/rosgraph_msgs/cmake
+
+//The directory containing a CMake configuration file for roslib.
+roslib_DIR:PATH=/opt/ros/noetic/share/roslib/cmake
+
+//The directory containing a CMake configuration file for rospack.
+rospack_DIR:PATH=/opt/ros/noetic/share/rospack/cmake
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
@@ -586,6 +607,12 @@ tf_turtle_SOURCE_DIR:STATIC=/home/zero/ROS_ws/autolabor_ws/src/tf_turtle
 
 //The directory containing a CMake configuration file for turtlesim.
 turtlesim_DIR:PATH=/opt/ros/noetic/share/turtlesim/cmake
+
+//The directory containing a CMake configuration file for urdf.
+urdf_DIR:PATH=/opt/ros/noetic/share/urdf/cmake
+
+//The directory containing a CMake configuration file for xacro.
+xacro_DIR:PATH=/opt/ros/noetic/share/xacro/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
@@ -738,7 +765,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

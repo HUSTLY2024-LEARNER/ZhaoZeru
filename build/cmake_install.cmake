@@ -140,6 +140,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/zero/ROS_ws/autolabor_ws/build/dynamic_tf/cmake_install.cmake")
   include("/home/zero/ROS_ws/autolabor_ws/build/multi_tf/cmake_install.cmake")
   include("/home/zero/ROS_ws/autolabor_ws/build/tf_turtle/cmake_install.cmake")
+  include("/home/zero/ROS_ws/autolabor_ws/build/robo/cmake_install.cmake")
 
 endif()
 

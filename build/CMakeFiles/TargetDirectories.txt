@@ -175,3 +175,11 @@
 /home/zero/ROS_ws/autolabor_ws/build/tf_turtle/CMakeFiles/turtle_pub.dir
 /home/zero/ROS_ws/autolabor_ws/build/tf_turtle/CMakeFiles/turtle_sub.dir
 /home/zero/ROS_ws/autolabor_ws/build/tf_turtle/CMakeFiles/create_turtle.dir
+/home/zero/ROS_ws/autolabor_ws/build/robo/CMakeFiles/install/strip.dir
+/home/zero/ROS_ws/autolabor_ws/build/robo/CMakeFiles/install/local.dir
+/home/zero/ROS_ws/autolabor_ws/build/robo/CMakeFiles/install.dir
+/home/zero/ROS_ws/autolabor_ws/build/robo/CMakeFiles/list_install_components.dir
+/home/zero/ROS_ws/autolabor_ws/build/robo/CMakeFiles/rebuild_cache.dir
+/home/zero/ROS_ws/autolabor_ws/build/robo/CMakeFiles/edit_cache.dir
+/home/zero/ROS_ws/autolabor_ws/build/robo/CMakeFiles/test.dir
+/home/zero/ROS_ws/autolabor_ws/build/robo/CMakeFiles/robo_xacro_generated_to_devel_space_.dir
